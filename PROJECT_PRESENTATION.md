@@ -1,6 +1,8 @@
 # Welcome to Speccy_Squad's Kata Challenges 👓
 
-This is Task 1 in our 3 part challenge
+This is Task 1 in our 3 part challenge.
+
+nb: These tasks can be completed individually
 
 ## How to Install and Run
 
@@ -14,18 +16,19 @@ Install dependencies
 
 ```
   npm install
+  npm install vitest --save-dev
 ```
 
 Start the server
 
 ```
-  npm run start
+  npm run dev
 ```
 
 Run Test
 
 ```
-npm run test
+  npm run test
 ```
 
 ## How To Play
@@ -36,16 +39,16 @@ Where shall we start?
 
 ### Step 1
 
-We have taken the food out of the fridge and have created the following list:
+We have taken the food out of the fridge and created the following list:
 
-- Chicken
-- Milk
-- Tomatoes
-- Cheese
 - Lamb
+- Tomatoes
+- Chicken
+- Cheese
 - Broccoli
+- Milk
 
-I think we can easily sort these into the following categories:
+We can now sort these into the following categories:
 
 - Meat
 - Dairy
@@ -55,15 +58,13 @@ If you head over to main.js you will see two empty variables that need completin
 
 ### Step 2
 
-Now we just need to figure out how to put our food items into our categories 🤔 The empty function on main.js may help you do this.
+Now we need to put our food items into the correct categories. The empty function on main.js may help you do this.
 
-console.log your foodCategories variable to confirm all items are in the correct categories.
+console.log your foodCategories variable to confirm all items are in the correct place.
 
 ### Step 3
 
-If you think you have a solution, open main.test.js to validate your code. If your tests pass, you've successfully completed this challenge.
-
-Except test 5, I couldn't get this to work 😅
+If you think you have a solution, open main.test.js to validate your code. If your tests pass, you have successfully completed this challenge.
 
 ### Well done!
 
@@ -71,7 +72,7 @@ If you have made it this far I will assume you have completed the challenge and 
 
 ## Feedback
 
-If you have any feedback, please let me know on Learn Worlds! 😀
+If you have any feedback, please let me know on LRN Worlds! 😀
 
 ## Authors
 
