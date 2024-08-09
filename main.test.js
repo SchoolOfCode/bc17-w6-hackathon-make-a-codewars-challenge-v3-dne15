@@ -1,4 +1,4 @@
-import { test, expect } from "vitest";
+import { test, expect, beforeEach } from "vitest";
 import { foodInFridge, foodCategories, arrangeFood } from "./main";
 
 //Test array contains correct food items
@@ -37,18 +37,9 @@ test("Invalid item added to array", () => {
   );
 });
 
-const foodCategories = {
-  fruitAndVeg: ["Tomatoes", "Broccoli"],
-  dairy: ["Cheese", "Milk"],
-  meat: ["Lamb", "Chicken"],
-};
-
-// Test for when an item is added to the wrong category
-test("Invalid item in category", () => {
-  arrangeFood();
-  foodCategories.dairy.push("Cheese");
+test("Throw error when an item is added to the wrong category", () => {
+  foodCategories.meat.push("Cheese");
   expect(() => arrangeFood()).toThrowError(
     "You have added an item into the wrong category"
   );
-  console.log(foodCategories.dairy);
 });

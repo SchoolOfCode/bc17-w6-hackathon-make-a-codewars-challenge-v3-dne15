@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "vitest",
-    "start": "node main.js"
+    "dev": "node main.js"
   },
   "author": "School of Code",
   "license": "ISC",
