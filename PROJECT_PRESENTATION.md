@@ -16,10 +16,9 @@ Install dependencies
 
 ```
   npm install
-  npm install vitest --save-dev
 ```
 
-Start the server
+Run main.js
 
 ```
   npm run dev
@@ -52,7 +51,7 @@ We can now sort these into the following categories:
 
 - Meat
 - Dairy
-- Veg
+- fruitAndVeg
 
 If you head over to main.js you will see two empty variables that need completing with the above information.
 
@@ -61,6 +60,10 @@ If you head over to main.js you will see two empty variables that need completin
 Now we need to put our food items into the correct categories. The empty function on main.js may help you do this.
 
 console.log your foodCategories variable to confirm all items are in the correct place.
+
+Once you have completed your function, add the following error message to indicate if/when an incorrect item has been added:
+
+"You have added an item into the wrong category"
 
 ### Step 3
 
